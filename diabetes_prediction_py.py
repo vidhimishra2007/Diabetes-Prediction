@@ -18,7 +18,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 from sklearn.tree import DecisionTreeClassifier
 sns.set()
 
-df=pd.read_csv('diabetes.csv')
+df=pd.read_csv('data.csv')
 df.head()
 
 df.columns
