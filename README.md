@@ -1,7 +1,7 @@
 # Diabetes Prediction Using Machine Learning
 
 A Capstone-1 project (IIT Patna, Hybrid UG Program in Computer Science & Data Analytics) that predicts whether a patient is diabetic using machine learning, trained on the Pima Indians Diabetes Database, and deployed as an interactive Streamlit web app.
----
+
 ## 🚀 Live Demo
 
 🔗 **https://diabetes-prediction-vidhimishra2007.streamlit.app**
