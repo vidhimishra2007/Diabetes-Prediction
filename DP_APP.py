@@ -9,9 +9,13 @@ Created on Wed Jul  2 02:43:26 2025
 import numpy as np
 import pickle
 import streamlit as st
+import os
+
+model_path = os.path.join(os.path.dirname(__file__), "DP_model.pkl")
 
 #loading the saved model
-loaded_model = pickle.load(open('/Users/vidhimishra/Desktop/DiabetesPrediction/DP_model.pkl','rb'))
+with open(model_path, "rb") as file:
+    loaded_model = pickle.load(file)
 
 
 #creating a function for Prediction
